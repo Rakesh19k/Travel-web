@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
+    <link rel="shortcut icon" href="/Images/brand-logo.png" type="image/x-icon">
+
+    <!-- style -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- googlefont -->
+    <link href='https://fonts.googleapis.com/css?family=Karla' rel='stylesheet'>
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+</head>
+
+<body>
+
+    <!-- start navbar -->
+
+    <header>
+        <div class="navbar-div" id="navbar">
+            <div class="brand-logo">
+                <a href="#">
+                    <img src="/Images/brand-logo.png" alt="" style="width: 20px; height: 20px; margin-right: 10px;">
+                </a>
+                <h5>Travelo</h5>
+            </div>
+            <div class="navbar-header">
+                <ul>
+                    <li class="header-title" style="font-weight: bolder;">Home</li>
+                    <li class="header-title">About</li>
+                    <li class="header-title">Places</li>
+                    <li class="header-title">Careers</li>
+                    <li class="header-title">Blog</li>
+                </ul>
+            </div>
+            <div class="navbar-connet-btn">
+                <h5>Connet</h5>
+            </div>
+
+            <span class="menu-icon" style="font-size:30px;cursor:pointer" onclick="openNav()"><i
+                    class="fa fa-bars"></i></span>
+
+            <div id="mySidenav" class="sidenav">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <hr><a href="#">Home</a>
+                <hr>
+                <a href="#">About</a>
+                <hr>
+                <a href="#">Places</a>
+                <hr>
+                <a href="#">Careers</a>
+                <hr>
+                <a href="#">Blog</a>
+                <hr>
+            </div>
+        </div>
+    </header>
+
+    <!-- end navbar -->
+
+
+    <!-- start travel explore -->
+
+    <section>
+        <div class="travel-explore">
+            <div class="container">
+                <div class="travel-top-paragraph">
+                    <h2>TRAVEL TO EXPLORE</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> A animi ullam necessitatibus
+                        nesciunt
+                        consequuntur! <br> Vel sapiente numquam provident dolorum veritatis.</p>
+                </div>
+                <div class="container">
+                    <div class="row ">
+                        <form class="travel-search-input ">
+                            <div class="form-grou row">
+                                <div class="col-xs-4">
+                                    <label for="ex1">Where You Want to go</label>
+                                    <div style="display: flex; align-items: center;">
+                                        <i class="fa fa-search"
+                                            style="color: rgb(184, 184, 184); margin-right: 5px;"></i>
+                                        <input class="form-con" type="text" style="border: none;"
+                                            placeholder="Search Your Location">
+                                    </div>
+                                </div>
+                                <div class="col-xs-3 form-ver-line">
+                                    <label for="ex2">Chech-in</label>
+                                    <input class="form-con" type="text" style="border: none;" placeholder="Add Date">
+                                </div>
+                                <div class="col-xs-3">
+                                    <label for="ex3">Check-out</label>
+                                    <input class="form-con" type="text" style="border: none;" placeholder="Add Date">
+                                </div>
+                                <button class="form-btn">Explore Now</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end travel explore -->
+
+    <!-- start service -->
+
+    <section>
+        <div class="container">
+            <div class="row services" style="justify-content: center; align-items: center;">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-xs-8 card">
+                    <i class="fas fa-award fa-2x" style="color: rgb(86, 158, 230);"></i>
+                    <h6>Get Best Prices</h6>
+                    <p>Pay through our application and save thousands and get amazing rewards.</p>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-xs-8 card">
+                    <i class="fas fa-first-aid fa-2x" style="color: rgb(86, 158, 230);"></i>
+                    <h6>Covid Safe</h6>
+                    <p>We have all the curated hotals that have all the precaution for a covid safe environment.</p>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-xs-8 card">
+                    <i class="fas fa-credit-card fa-2x" style="color: rgb(86, 158, 230);"></i>
+                    <h6>Flexible Payment</h6>
+                    <p>Enjoy the flexible payment through our app and get rewards on every payment.</p>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-xs-8 card">
+                    <i class="fas fa-street-view fa-2x" style="color: rgb(86, 158, 230);"></i>
+                    <h6>Find The Best Near You</h6>
+                    <p>Find the best hotels and places to visit near you in a single click.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end service -->
+
+
+
+
+    <!-- start Destination -->
+
+    <section>
+        <div class="places">
+            <div class="container">
+                <div class="Places-header">
+                    <div class="header">
+                        <h3>Recommended Destination</h3>
+                    </div>
+                    <div class="places-title">
+                        <span style="border-bottom: 2px solid rgb(104, 168, 241); ">The Weekend Break</span>
+                        <span class="hide-places-title" style="border-bottom: 1px solid rgb(194, 194, 194);">The Package
+                            Holiday</span>
+                        <span class="hide-places-title" style="border-bottom: 1px solid rgb(194, 194, 194);">The Group
+                            Tour</span>
+                        <span class="hide-places-title" style="border-bottom: 1px solid rgb(194, 194, 194);">Long Term
+                            Slow Travel</span>
+                    </div>
+                </div>
+
+                <div class="row" style="justify-content: space-between;">
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8 dec-card card">
+                        <img src="/Images/pexels-pixabay-290597.jpg" alt="">
+                        <h5>Singapore</h5>
+                        <p>Singapore, officially the Republic of Singapore, is a</p>
+                        <div class="bottom-title">
+                            <div>
+                                <div>
+                                    <i class="fas fa-building"></i>
+                                    <i class="fas fa-utensils"></i>
+                                    <i class="fas fa-plane"></i>
+                                </div>
+                                <span>1000Kms</span>
+                            </div>
+                            <div class="bottom-price">
+                                <h6> &#8377;38,800</h6>
+                                <span>Approx 2 night trip</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8 dec-card card">
+                        <img src="/Images//pexels-pixabay-415708.jpg" alt="">
+                        <h5>Thailand</h5>
+                        <p>Thailand is a Shouthest Asian Country. It's known for</p>
+                        <div class="bottom-title">
+                            <div>
+                                <div>
+                                    <i class="fas fa-building"></i>
+                                    <i class="fas fa-utensils"></i>
+                                    <i class="fas fa-plane"></i>
+                                </div>
+                                <span>1000Kms</span>
+                            </div>
+                            <div class="bottom-price">
+                                <h6> &#8377;38,800</h6>
+                                <span>Approx 2 night trip</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8 dec-card card">
+                        <img src="/Images/pexels-anna-urlapova-2956955.jpg" alt="">
+                        <h5>Paris</h5>
+                        <p>Paris, France's Capital, is a majorEuropean and a</p>
+                        <div class="bottom-title">
+                            <div>
+                                <div>
+                                    <i class="fas fa-building"></i>
+                                    <i class="fas fa-utensils"></i>
+                                    <i class="fas fa-plane"></i>
+                                </div>
+                                <span>1000Kms</span>
+                            </div>
+                            <div class="bottom-price">
+                                <h6> &#8377;38,800</h6>
+                                <span>Approx 2 night trip</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8 dec-card card">
+                        <img src="/Images/pexels-chris-schippers-427679.jpg" alt="">
+                        <h5>London</h5>
+                        <p>Londan, the capital England and the United</p>
+                        <div class="bottom-title">
+                            <div>
+                                <div>
+                                    <i class="fas fa-building"></i>
+                                    <i class="fas fa-utensils"></i>
+                                    <i class="fas fa-plane"></i>
+                                </div>
+                                <span>1000Kms</span>
+                            </div>
+                            <div class="bottom-price">
+                                <h6> &#8377;38,800</h6>
+                                <span>Approx 2 night trip</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8 dec-card card">
+                        <img src="/Images/pexels-aneta-foubíková-2336927.jpg" alt="">
+                        <h5>New Zealand</h5>
+                        <p>New Zealand is a island country in the</p>
+                        <div class="bottom-title">
+                            <div>
+                                <div>
+                                    <i class="fas fa-building"></i>
+                                    <i class="fas fa-utensils"></i>
+                                    <i class="fas fa-plane"></i>
+                                </div>
+                                <span>1000Kms</span>
+                            </div>
+                            <div class="bottom-price">
+                                <h6>&#8377; 38,800</h6>
+                                <span>Approx 2 night trip</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-8 dec-card card">
+                        <img src="/Images/pexels-zukiman-mohamad-21787.jpg" alt="">
+                        <h5>Bora Bora</h5>
+                        <p>Bora Bora is a small South Pacific island northwest of</p>
+                        <div class="bottom-title">
+                            <div>
+                                <div>
+                                    <i class="fas fa-building"></i>
+                                    <i class="fas fa-utensils"></i>
+                                    <i class="fas fa-plane"></i>
+                                </div>
+                                <span>1000Kms</span>
+                            </div>
+                            <div class="bottom-price">
+                                <h6>&#8377; 38,800</h6>
+                                <span>Approx 2 night trip</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end Destination -->
+
+
+    <!-- start blog -->
+
+    <section>
+        <div class="blog">
+            <div class="container" style="margin-top: 100px;">
+                <div class="blog-header">
+                    <h3>Blogs</h3>
+                </div>
+                <div class="row mob-size">
+                    <div class="col-lg-6 col-md-6 col-sm-8">
+                        <div class="blog-img" style="margin-bottom: 20px;">
+                            <img src="/Images//pexels-tobias-bjørkli-2335126.jpg" alt=""
+                                style="width: 100%; height: 100%;">
+                            <h2 class="centered">The Ultimate Guide to Climbing Mount Kilimanjaro</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-8">
+                        <div class="blog-img" style="height: 235px;">
+                            <img src="/Images/pexels-felix-mittermeier-2832061.jpg" alt=""
+                                style="width: 100%; height: 90%; ">
+                            <h2 class="centered" style="margin-top: -10px;">12 Things I'd Tell Any New Traveler</h2>
+                        </div>
+                        <div class="blog-img" style="height: 234px;">
+                            <img src="/Images/pexels-pixabay-358319.jpg" alt="" style="width: 100%; height: 90%;">
+                            <h2 class="centered" style="margin-top: -10px;">The Ultimate Packing List for Female
+                                Travelers</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- end blog -->
+
+
+    <!-- start customers -->
+
+
+    <section>
+        <div class="customer">
+            <div class="container" style="margin-top: 100px;">
+                <div class="cust-header">
+                    <h3>Happy Customers</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-sm-8"
+                        style=" margin: 20px 0; padding: 20px; box-shadow: 2px 10px 20px 0px rgb(241, 243, 243);">
+                        <div>
+                            <p><i class="fas fa-quote-left fa-lg" style="color: rgb(200, 226, 241);"></i> Lorem, ipsum
+                                dolor sit amet consectetur adipisicing elit. Porro quisquam iure quod tempore animi
+                                asperiores minima aliquid dolorem, maxime dolores alias odio accusantium doloribus,
+                                delectus, rem quia? Ipsum, ea autem.</p>
+                        </div>
+                        <div class="profile">
+                            <img src="/Images/images (4).jpg" alt=""
+                                style="width: 50px; height: 50px; border-radius: 50px;">
+                            <div class="pro-title">
+                                <h5>Shalini Singh</h5>
+                                <h6>Project Manger Flyhigh</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-8"
+                        style=" margin: 20px 0; padding: 20px; box-shadow: 2px 10px 20px 0px rgb(241, 243, 243);">
+                        <div>
+                            <p><i class="fas fa-quote-left fa-lg" style="color: rgb(200, 226, 241);"></i> Lorem, ipsum
+                                dolor sit amet consectetur adipisicing elit. Porro quisquam iure quod tempore animi
+                                asperiores minima aliquid dolorem, maxime dolores alias odio accusantium doloribus,
+                                delectus, rem quia? Ipsum, ea autem.</p>
+                        </div>
+                        <div class="profile">
+                            <img src="/Images/images (3).jpg" alt=""
+                                style="width: 50px; height: 50px; border-radius: 50px;">
+                            <div class="pro-title">
+                                <h5>Patel Singh</h5>
+                                <h6>Project Manger Flyhigh</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end customers -->
+
+    <!-- start footer -->
+
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <div class="copyright">
+                    <h5>Copyright &copy; 2020 Travelo. All rights reserved</h5>
+                </div>
+
+                <div class="footer-title">
+                    <ul>
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Places</li>
+                        <li>Careers</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+
+                <div class="footer-logo">
+                    <i class="fab fa-facebook fa-2x"></i>
+                    <i class="fab fa-linkedin fa-2x"></i>
+                    <i class="fab fa-instagram fa-2x"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- end footer -->
+
+
+
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if (prevScrollpos > currentScrollPos) {
+                document.getElementById("navbar").style.top = "0";
+            } else {
+                document.getElementById("navbar").style.top = "-90px";
+            }
+            if (currentScrollPos > 300) {
+                document.getElementById("navbar").style.top = "0";
+            }
+            prevScrollpos = currentScrollPos;
+        }
+    </script>
+</body>
+
+</html>
